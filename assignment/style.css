@@ -9,13 +9,6 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.container {
-    max-width: 960px;
-    min-height: 100%;
-    margin: 0 auto;
-    
-}
-
 .game-wrap {
     position: relative;
     padding: 20px 0 0;
@@ -24,11 +17,12 @@ body {
 canvas {
     position: relative;
     max-width: 100%;
-    border: 2px solid blanchedalmond;
+    border: 5px solid blanchedalmond;
     max-height: 100%;
     display: block;
     margin: 0 auto
 }
+
 .content {
     color: aqua;
     text-align: center;
