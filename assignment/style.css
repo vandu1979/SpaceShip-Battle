@@ -1,12 +1,28 @@
 @font-face {
-    font-family:FastFuriousFont ;
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
     src: url(Antique-Olive-Std-Nord-Italic.ttf);
 }
 body {
     background-color: blue;
     min-height: 100%;
     max-width: 100%;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#button {
+    font-size: 30px;
+    text-align: center;
+    background-color: chartreuse;
+    color: brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    min-height:30px; 
+    min-width: 120px;
+}
+#button:hover {
+    background-color:#ad0087;
+    transition: 0.7s;
+    color: rgb(54, 42, 165);
 }
 
 .game-wrap {
@@ -15,100 +31,19 @@ body {
 }
 
 canvas {
+    
     position: relative;
     max-width: 100%;
-    border: 5px solid blanchedalmond;
+    border: 10px solid blanchedalmond;
     max-height: 100%;
     display: block;
-    margin: 0 auto
+    margin: 0 auto;
+    background-color: #ad0087;
+    background-size:cover;
+    background-image: url('images/space.jfif');
+
 }
 
-.content {
-    color: aqua;
-    text-align: center;
-    padding: 0 20px;
-}
-
-p {
-    margin: 10px 0;
-    font-size: 18px;
-    line-height: 1.5em;
-}    
-code {
-    background-color: yellowgreen;
-    background: linear-gradient(rgb(124, 124, 124), rgb(240, 0, 0));
-    line-height: 1.3em;
-    display: inline-block;
-    border-radius: 3px;
-    font-family: monospace;
-    padding: 1px 5px;
-    margin: 0 2px;
-}
-.title {
-    font-size: 40px;
-    font-weight: 900;
-    margin: 20px 0;
-}
-
-.title span:nth-child(1) {
-    color: chocolate;
-}
-
-.title span:nth-child(2) {
-    color: rgb(210, 30, 108);
-}
-
-.title span:nth-child(3) {
-    color: rgb(30, 210, 60);
-}
-
-.title span:nth-child(4) {
-    color: rgb(30, 150, 210);
-}
-
-.title span:nth-child(5) {
-    color: rgb(210, 153, 30);
-}
-
-.title span:nth-child(6) {
-    color: rgb(210, 30, 33);
-}
-
-.title span:nth-child(7) {
-    color: rgb(171, 210, 30);
-}
-
-.title span:nth-child(8) {
-    color: rgba(210, 30, 30, 0.888);
-}
-
-.title span:nth-child(9) {
-    color: rgba(87, 30, 210, 0.918);
-}
-
-.title span:nth-child(10) {
-    color: rgb(210, 30, 129);
-}
-
-.title span:nth-child(11) {
-    color: rgb(78, 30, 210);
-}
-
-.title span:nth-child(12) {
-    color: rgb(210, 174, 30);
-}
-
-.title span:nth-child(13) {
-    color: rgb(30, 210, 177);
-}
-
-.title span:nth-child(14) {
-    color: rgb(30, 168, 210);
-}
-
-.title span:nth-child(15) {
-    color: chocolate;
-}
 
 
 
