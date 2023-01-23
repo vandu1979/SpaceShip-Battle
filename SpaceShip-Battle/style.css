@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    src: url(Antique-Olive-Std-Nord-Italic.ttf);
+}
+body {
+    background-color: blue;
+    min-height: 100%;
+    max-width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#button {
+    font-size: 30px;
+    text-align: center;
+    background-color: chartreuse;
+    color: brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    min-height:30px; 
+    min-width: 120px;
+}
+#button:hover {
+    background-color:#ad0087;
+    transition: 0.7s;
+    color: rgb(54, 42, 165);
+}
+
+.game-wrap {
+    position: relative;
+    padding: 20px 0 0;
+}
+
+canvas {
+    
+    position: relative;
+    max-width: 100%;
+    border: 10px solid blanchedalmond;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #ad0087;
+    background-size:cover;
+    background-image: url('images/space.jfif');
+
+}
+
+
+
+
+
